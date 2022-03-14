@@ -1,0 +1,141 @@
+* {
+	margin: 0;
+	font-family: 'Roboto';
+}
+
+.header {
+	padding-top: 10px;
+	padding-bottom: 40px;
+	padding-left: 80px;
+	padding-right: 80px;
+	background-color: #1F2937;
+	color: #F9FAF8;
+}
+
+.header-links {
+	list-style-type: none;
+	display: flex;
+	gap: 20px;
+}
+
+.header-top {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.header-text {
+	font-size: 48px;
+	font-weight: 900;
+}
+
+.header-bottom {
+	display: flex;
+	gap: 20px;
+}
+
+.header-bottom-left {
+	display: flex;
+	flex: 1 1 50%;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.secondary-text {
+	font-size: 18px;
+	color: #E5E7EB
+}
+
+.header-bottom-right {
+	display: flex;
+	flex: 1 1 50%;
+	background: gray;
+	color: white;
+	justify-content: center;
+	align-items: center;
+}
+
+button {
+	width: 100px;
+	height: 30px;
+	color: #F9FAF8;
+	background-color: #3882F6;
+	border-radius: 8px;
+	transition-duration: 0.4s;
+	border: none;
+}
+
+button:hover {
+	background-color: #F9FAF8;
+	color: black;
+	cursor: pointer;
+}
+
+a {
+	text-decoration: none;
+	color: #F9FAF8;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  margin: 30px;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+}
+
+.tiles {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+.text {
+  text-align: center;
+}
+
+.image-text {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 150px;
+  gap: 10px;
+}
+
+.image {
+  height: 150px;
+  width: 150px;
+  border: 3px solid #3882F6;
+  border-radius: 15px;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.quote-text {
+  width: 50%;
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.quote-author {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: bold;
+}
